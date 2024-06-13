@@ -1,0 +1,19 @@
+.product-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  align-items: center;
+  justify-content: center;
+}
+.product-card {
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

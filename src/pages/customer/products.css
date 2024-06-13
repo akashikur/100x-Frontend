@@ -1,0 +1,11 @@
+.customer-wrapper {
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.customer-product-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+}
